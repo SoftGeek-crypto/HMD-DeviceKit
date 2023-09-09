@@ -1,0 +1,10 @@
+costura.bouncycastle.crypto.dll.compressed|1.8.9.0|BouncyCastle.Crypto, Version=1.8.9.0, Culture=neutral, PublicKeyToken=0e99375e54769942|BouncyCastle.Crypto.dll|54A6743781FD4CEB720331FCE92F16186931192D|2609152
+costura.costura.dll.compressed|5.2.0.0|Costura, Version=5.2.0.0, Culture=neutral, PublicKeyToken=null|Costura.dll|FB3158F47937ABBD9FF71D4770BCBDFE1206DC32|4608
+costura.costura.pdb.compressed|||Costura.pdb|C5A213C913ECC0E0B0D28B80FB673AB26DE416F2|2544
+costura.dotnetzip.dll.compressed|1.15.0.0|DotNetZip, Version=1.15.0.0, Culture=neutral, PublicKeyToken=6583c7c814667745|DotNetZip.dll|99ACA4F325D559487ABC51B0D2EBD4DCA62C9462|460288
+costura.dotnetzip.pdb.compressed|||DotNetZip.pdb|6945A72380796827A55545A686EF0DB46B77807D|589312
+costura.microsoft.identitymodel.clients.activedirectory.dll.compressed|5.2.9.0|Microsoft.IdentityModel.Clients.ActiveDirectory, Version=5.2.9.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35|Microsoft.IdentityModel.Clients.ActiveDirectory.dll|2FBA5D92D890EA54B2F32FA7BE7E9876672B8B41|1080680
+costura.newtonsoft.json.dll.compressed|13.0.0.0|Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed|Newtonsoft.Json.dll|7D0AD03FBDA1C24F883116B940717E596073AE96|701992
+costura.nlog.dll.compressed|4.0.0.0|NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c|NLog.dll|1F9C97E2D56ABD6540861A17EF0EE8AA8AB35B0A|878080
+costura.qrcoder.dll.compressed|1.4.1.0|QRCoder, Version=1.4.1.0, Culture=neutral, PublicKeyToken=null|QRCoder.dll|59F350893A56DF61495392474199FD50C7C58901|126464
+costura.restsharp.dll.compressed|106.11.7.0|RestSharp, Version=106.11.7.0, Culture=neutral, PublicKeyToken=598062e77f915f75|RestSharp.dll|6BDE48731F89B3BBBDE7614898638A4F33121114|192000

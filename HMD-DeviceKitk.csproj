@@ -1,0 +1,73 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>HMD DeviceKit</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net472</TargetFramework>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="costura.bouncycastle.crypto.dll.compressed" />
+    <None Remove="costura.costura.dll.compressed" />
+    <None Remove="costura.costura.pdb.compressed" />
+    <None Remove="costura.dotnetzip.dll.compressed" />
+    <None Remove="costura.dotnetzip.pdb.compressed" />
+    <None Remove="costura.microsoft.identitymodel.clients.activedirectory.dll.compressed" />
+    <None Remove="costura.newtonsoft.json.dll.compressed" />
+    <None Remove="costura.nlog.dll.compressed" />
+    <None Remove="costura.qrcoder.dll.compressed" />
+    <None Remove="costura.restsharp.dll.compressed" />
+    <None Remove="costura.metadata" />
+    <EmbeddedResource Include="costura.bouncycastle.crypto.dll.compressed" LogicalName="costura.bouncycastle.crypto.dll.compressed" />
+    <EmbeddedResource Include="costura.costura.dll.compressed" LogicalName="costura.costura.dll.compressed" />
+    <EmbeddedResource Include="costura.costura.pdb.compressed" LogicalName="costura.costura.pdb.compressed" />
+    <EmbeddedResource Include="costura.dotnetzip.dll.compressed" LogicalName="costura.dotnetzip.dll.compressed" />
+    <EmbeddedResource Include="costura.dotnetzip.pdb.compressed" LogicalName="costura.dotnetzip.pdb.compressed" />
+    <EmbeddedResource Include="costura.microsoft.identitymodel.clients.activedirectory.dll.compressed" LogicalName="costura.microsoft.identitymodel.clients.activedirectory.dll.compressed" />
+    <EmbeddedResource Include="costura.newtonsoft.json.dll.compressed" LogicalName="costura.newtonsoft.json.dll.compressed" />
+    <EmbeddedResource Include="costura.nlog.dll.compressed" LogicalName="costura.nlog.dll.compressed" />
+    <EmbeddedResource Include="costura.qrcoder.dll.compressed" LogicalName="costura.qrcoder.dll.compressed" />
+    <EmbeddedResource Include="costura.restsharp.dll.compressed" LogicalName="costura.restsharp.dll.compressed" />
+    <EmbeddedResource Include="costura.metadata" LogicalName="costura.metadata" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Net.Codecrete.QrCodeGenerator" Version="1.4.1" />
+    <PackageReference Include="QRCoder" Version="1.4.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.IdentityModel.Clients.ActiveDirectory">
+      <HintPath>..\HMD DeviceKit\Microsoft.IdentityModel.Clients.ActiveDirectory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\HMD DeviceKit\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog">
+      <HintPath>..\HMD DeviceKit\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Core" />
+    <Reference Include="QRCoder" />
+    <Reference Include="System.Management" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="RestSharp">
+      <HintPath>..\HMD DeviceKit\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="BouncyCastle.Crypto">
+      <HintPath>..\HMD DeviceKit\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+  </ItemGroup>
+</Project>
