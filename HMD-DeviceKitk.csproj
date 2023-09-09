@@ -17,28 +17,7 @@
     <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
   <ItemGroup>
-    <None Remove="costura.bouncycastle.crypto.dll.compressed" />
-    <None Remove="costura.costura.dll.compressed" />
-    <None Remove="costura.costura.pdb.compressed" />
-    <None Remove="costura.dotnetzip.dll.compressed" />
-    <None Remove="costura.dotnetzip.pdb.compressed" />
-    <None Remove="costura.microsoft.identitymodel.clients.activedirectory.dll.compressed" />
-    <None Remove="costura.newtonsoft.json.dll.compressed" />
-    <None Remove="costura.nlog.dll.compressed" />
-    <None Remove="costura.qrcoder.dll.compressed" />
-    <None Remove="costura.restsharp.dll.compressed" />
-    <None Remove="costura.metadata" />
-    <EmbeddedResource Include="costura.bouncycastle.crypto.dll.compressed" LogicalName="costura.bouncycastle.crypto.dll.compressed" />
-    <EmbeddedResource Include="costura.costura.dll.compressed" LogicalName="costura.costura.dll.compressed" />
-    <EmbeddedResource Include="costura.costura.pdb.compressed" LogicalName="costura.costura.pdb.compressed" />
-    <EmbeddedResource Include="costura.dotnetzip.dll.compressed" LogicalName="costura.dotnetzip.dll.compressed" />
-    <EmbeddedResource Include="costura.dotnetzip.pdb.compressed" LogicalName="costura.dotnetzip.pdb.compressed" />
-    <EmbeddedResource Include="costura.microsoft.identitymodel.clients.activedirectory.dll.compressed" LogicalName="costura.microsoft.identitymodel.clients.activedirectory.dll.compressed" />
-    <EmbeddedResource Include="costura.newtonsoft.json.dll.compressed" LogicalName="costura.newtonsoft.json.dll.compressed" />
-    <EmbeddedResource Include="costura.nlog.dll.compressed" LogicalName="costura.nlog.dll.compressed" />
-    <EmbeddedResource Include="costura.qrcoder.dll.compressed" LogicalName="costura.qrcoder.dll.compressed" />
-    <EmbeddedResource Include="costura.restsharp.dll.compressed" LogicalName="costura.restsharp.dll.compressed" />
-    <EmbeddedResource Include="costura.metadata" LogicalName="costura.metadata" />
+    <None Remove="dummy.no" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Net.Codecrete.QrCodeGenerator" Version="1.4.1" />
